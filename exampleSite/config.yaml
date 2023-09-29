@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Ekanshh Praveen"
 theme: hugo-profile
 
 outputs:
@@ -22,18 +22,18 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+# Menus:
+#   main:
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -53,10 +53,10 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
+  title: "EP"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/faviconheart2.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -73,7 +73,7 @@ params:
 
   theme:
     # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -103,7 +103,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "EP" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     menus:
@@ -118,113 +118,99 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: /images/hero.svg
+    title: "Ekanshh"
+    subtitle: "I build awesome things :)"
+    content: "A passionate third-year Software Engineering student at the University of Waterloo. I love using the power of computing and engineering to build things that help people."
+    image: /images/hero.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://drive.google.com/file/d/1GyJ2w2cS9CiGQCKfQa6RRr813tw3u59u/view?usp=drive_link"
       download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/Rocksen1683
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/ekanshh-praveen/
+
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
-    content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
+    image: "/images/me.jpg"
+    content: |
+      I am a Software Engineer based in Waterloo, ON :)) I love mathematics and engineering and strive to utilize them to build things that I find cool - be it a self-driving rover or a language learning app.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      Other than the tech-y stuff, I have a deep passion for Formula 1, movies and most importantly food. You can find me analyzing why Ferrari causes pain or cooking up my signature chocolate cheese sandwich.
+
+      Some of my **allies**: 
+    items:
+      Languages: Python, SQL, C++, C, TypeScript, Kotlin, Golang, Solidity
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - Python
+        - SQL
+        - C/C++
+        - TypeScript
+        - Kotlin
+        - Golang
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
-        featuredLink:
-          enable: true
-          name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+      - job: "Software Engineering Intern"
+        company: "SEW-Eurodrive"
+        companyUrl: "https://www.sew-eurodrive.de/automation/maxolution-system-solutions/mobile-systems/mobile-systems.html"
+        date: "Aug 2023 - present"
+        # featuredLink:
+        #   enable: false
+        #   # name: "View the project"
+        #   url: "https://www.sew-eurodrive.de/automation/maxolution-system-solutions/mobile-systems/mobile-systems.html"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+              - Developing a C++ 3D Obstacle Detection system using FastSLAM and MV3D for an autonomous forklift
+              - Engineering OpenGL simulation framework for camera calibration; improving detection accuracy by 15%
+              - Building a Mosquitto MQTT broker for forklift orders; enabling parallel transactions for 100+ forklifts   
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+      - job: "Data Scientist Intern"
+        company: "Sagen"
+        companyUrl: "https://sagen.ca"
+        date: "Jan 2023 - Apr 2023"
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          - Developed PySpark microservice to calculate Capital; reduced run-time from 5 hours to 9 minutes
+          - Improved preparation time of Capital datasets by 65% using PySpark SQL and AWS Data Wrangler
+          - Migrated in-house regression model to AWS Autopilot; achieved 11% better Mean Absolute Error
+          - Optimized Autopilot models for Batch Inferencing; led to company-wide adoption of SageMaker tools
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+      - job: "Software Developer Intern"
+        company: "Royal Bank of Canada"
+        companyUrl: "https://www.rbcroyalbank.com/"
+        date: "May 2022 - Aug 2022"
 
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          - Built Python ETL pipelines for a TM1 database; increased the speed of ETL processes by 262% using TM1py
+          - Deployed TurboIntegrator scripts to purge and archive data; reduced server processing time by 15%
+          - Developed OData REST API to retrieve S3 bucket data; built internal dashboards for cloud data with Tableau
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+      - job: "Technology Intern"
+        company: "IBM"
+        companyUrl: "https://www.ibm.com/ca-en"
+        date: "Dec 2020 - Feb 2021"
 
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+        content: |
+          - Built a road-accident detection system using IBM Watson; processed videos with OpenCV
+          - Engineered navigation system with Google Maps and communication system with Twilio and IMAP
+
+      
 
   # Education
   education:
@@ -232,121 +218,169 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Bachelor of Software Engineering (BSE)"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "University of Waterloo"
+          url: "https://uwaterloo.ca/future-students/programs/software-engineering"
+        date: "2021 - present"
+        # GPA: "3.8 out of 5.0"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          Relevant Courses: Data Structures, OOP in C++, Statistics, Databases, Linear Algebra, Compilers
 
           Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+            - Computer Vision Developer at UW Aerial Robotics Group
+            - Engineering Society Representative for Software Engineering
+            - Squash, Water Polo, Poker Club, Formula One
+
 
   # Achievements
   achievements:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
-
+      - title: Canadian Engineering Competition 2022
+        content: Represented UWaterloo and Ontario in National level programming competiition; won $2000 in prize-money.
+        # url: https://example.com
+      - title: ETH-New York 2022
+        content: Won the Optimism Prize for developing a decentralized canvas
+      - title: IBM AI for Better India Challenge 
+        content: Finalist in national-level AI contest (top 10 out of 1000+ teams)
+        # url: "https://github.com/gurusabarish/hugo-profile"
+      - title: IT Council Co-Founder
+        content: Co-founded my high school's first tech and computing club; held a tech-fest with 300+ participants
+      
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+      - title: SEnsory
+        content: A voice-controlled autonomous rover that finds objects for you
+        image: /images/projects/sensory.jpg
+        # featured:
+        #   name: Demo
+        #   link: https://hugo-profile.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Python"
+          - "C++"
+          - "TensorFlow"
+          - "Flask"
+          - "OpenCV"
+          - "Flutter"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/Rocksen1683/SEnsory
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+      - title: Catan
+        content: Rendition of the Settlers of Catan that can be played on the Terminal
+        image: /images/projects/catan3.png
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "C++"
+          - "Smart Pointers"
+          - "Design Patterns"
+          - "OOP"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/CtorCatan/settlers-of-catan
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+      - title: Time-Series Forecasting
+        content: Desktop Application to predict the closing values of stocks using the ARIMA Model
+        image: /images/projects/arima.png
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Python"
+          - "Kivy"
+          - "numpy"
+          - "Pandas"
+          - "statsmodels"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/Rocksen1683/time-series-forecasting
+
+      - title: PriceMatch
+        content: Web-app that scans a particular item and helps you find the cheapest price 
+        image: /images/projects/pricematch2.png
+        badges:
+          - "React"
+          - "Flask"
+          - "scikit-learn"
+          - "Firebase"
+          - "GCP"
+        links:
+          - icon: fab fa-github
+            url: https://devpost.com/software/pricematch
+
+      - title: SnapStudy
+        content: Android language-learning app that uses computer vision to make flashcards of objects
+        image: /images/projects/snapstudy3.png
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
+        badges:
+          - "Kotlin"
+          - "Jetpack Compose"
+          - "MobileNet"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/SnapStudyApp/SnapStudy-android
+
+      - title: EnviroPact
+        content: Social Dashboard for environmental good to see the impact you've made
+        image: /images/projects/enviropact.png
+        badges:
+          - "React"
+          - "TypsScript"
+          - "Solidity"
+          - "Firebase"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/EnviroPact/EnviroPact
+      
+      - title: Image Classifier
+        content: Image Classifier for the CIFAR-10 dataset using TensorFlow
+        image: /images/projects/cifar.png
+        badges:
+          - "Python"
+          - "Jupyter Notebook"
+          - "TensorFlow"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Rocksen1683/computer-vision-bootcamp
+
+      
+      - title: DeCanvas
+        content: Decentralised web3 pixel canvas, where unique users can paint pixels directly to the blockchain
+        image: /images/projects/DeCanvas.png
+        badges:
+          - "React"
+          - "TypeScript"
+          - "Solidity"
+          - "Firebase"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Skitzzy/deCanvas
+      
+      - title: HyperFocus
+        content: An application that helps you get work done while still balancing your physical and mental health
+        image: /images/projects/hyperfocus2.png
+        badges:
+          - "React"
+          - "Spotify"
+          - "Firebase"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Avikam03/newhacks
+
+      
+
+
+
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    content: Looking for 2024 technical internship opportunities! Feel free to reach out to me :)
+    email: edpravee@uwaterloo.ca
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
@@ -359,26 +393,24 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/Rocksen1683
+      linkedin: https://www.linkedin.com/in/ekanshh-praveen/
+      instagram: https://www.instagram.com/ek.praveen03
+
 
   # List pages like blogs and posts
   listPages:
     disableFeaturedImage: false
 
   # Single pages like blog and post
-  singlePages:
-    readTime:
-      enable: true
-      content: "min read"
-    scrollprogress:
-      enable: true
+  # singlePages:
+  #   readTime:
+  #     enable:       content: "min read"
+  #   scrollprogress:
+  #     enable: true
 
   # For translations
   terms:
