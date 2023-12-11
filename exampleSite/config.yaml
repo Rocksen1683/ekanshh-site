@@ -121,7 +121,7 @@ params:
     title: "Ekanshh"
     subtitle: "I build awesome things :)"
     content: "A passionate third-year Software Engineering student at the University of Waterloo. I love using the power of computing and engineering to build things that help people."
-    image: /images/hero.jpg
+    image: /images/me_skating.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
