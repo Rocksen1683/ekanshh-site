@@ -128,7 +128,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/18N1upBJo0jDPHXF64a8MZI2FqhSGgmQk/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1tB64rbZPoc3BtBEMrN7UAzegKHUhiFpZ/view?usp=drive_link"
       download: true
       newPage: false
     socialLinks:
@@ -147,7 +147,7 @@ params:
     content: |
       I am a Software Engineer based in Waterloo, ON :)) I love mathematics and engineering and strive to utilize them to build things that I find cool - be it a self-driving rover or a language learning app. I'm currently working on building a Generative Dance Assistant that uses pose-detection to generate tutorials for any dance video.
 
-      Other than the tech-y stuff, I have a deep passion for Formula 1, movies and most importantly food. You can find me analyzing why Ferrari causes pain or cooking up my signature chocolate cheese sandwich.
+      Other than the tech-y stuff, I have a deep passion for Formula 1, football, movies and most importantly food. You can find me analyzing why Ferrari causes pain or cooking up my signature chocolate cheese sandwich.
 
       Some of my **allies**: 
     items:
