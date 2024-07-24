@@ -169,7 +169,7 @@ params:
       - job: "Software Engineer Intern"
         company: "Microsoft"
         companyUrl: "https://learn.microsoft.com/en-us/entra/identity/hybrid/what-is-provisioning"
-        date: "Aug 2023 - present"
+        date: "May 2024 - present"
 
         content: |
           - Building cross-platform identity management API for EntraID; seamlessly connecting to 300+ external services
@@ -180,7 +180,7 @@ params:
       - job: "Software Engineer Intern"
         company: "SEW-Eurodrive"
         companyUrl: "https://www.sew-eurodrive.de/automation/maxolution-system-solutions/mobile-systems/mobile-systems.html"
-        date: "Aug 2023 - present"
+        date: "Aug 2023 - Jan 2024"
         # featuredLink:
         #   enable: false
         #   # name: "View the project"
